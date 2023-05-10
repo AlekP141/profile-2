@@ -1,0 +1,644 @@
+@import url("/names.css");
+
+* {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #262626;
+}
+
+/* Main Page */
+
+
+.name-animation{
+  width: 100%;
+  height: 100vh;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: squash-div 5s forwards
+}
+
+
+@keyframes squash-div {
+  100% {
+    height: 10px;
+  }
+}
+
+.name-animation h1{
+  margin: -17px;
+  font-size: 42px;
+}
+
+.test {
+  font-size: 42px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.main-div{
+  width: 70%;
+  margin: 2vh auto;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 0.3);
+  padding: 2vh;
+  border-radius: 8px;
+}
+
+.top-div{
+  margin-top: 5vh;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  width: 80%;
+  margin: 3% auto;
+}
+
+.subhead {
+  text-decoration: underline 0.8px rgb(0 0 0 / 0.3);
+  text-underline-offset: 2px;
+}
+
+.profile {
+  padding: 8px;
+  width: 120px;
+  border-radius: 50%;
+  border:1px rgb(0 0 0 / 0.3) solid;
+  background: white;
+}
+
+.material-symbols-outlined {
+  transform: scale(1.5);
+  transition: transform 1.5s, opacity 2s;
+  cursor: pointer;
+  border: 1.5px solid red;
+  border-radius: 50%;
+}
+
+.material-symbols-outlined:focus {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.material-symbols-outlined:focus ~ .socials {
+  opacity: 100%;
+  transition: opacity 2s;
+}
+
+/* Socials */
+
+.socials {
+  opacity: 0;
+  padding-top: 1vh;
+}
+
+.socials-list{
+  text-decoration: none;
+  list-style-type: none;
+  display:inline;
+  left: auto;
+}
+
+.socials-list li{
+  display: inline;
+  padding: 10px;
+  margin: 2px;
+}
+
+.socials-list li img{
+  width: 50px;
+  border-radius: 35px;
+  transition: all 0.5s
+}
+
+.socials-list li img:hover{
+  background-color: lightgrey;
+  opacity: 50%
+}
+
+.name-1{
+  transform: translate(0, 0);
+  animation: move-1 5s forwards;
+}
+
+@keyframes move-1 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(14px * 1))
+  }
+}
+
+.name-2{
+  transform: translate(8.8%, 0);
+  animation: move-2 5s forwards;
+}
+
+@keyframes move-2 {
+  100% {
+    transform: translate(calc(8.8% * 21), 0)
+  }
+}
+
+
+.name-3{
+  transform: translate(calc(8.8% * 2), 0);
+  animation: move-3 5s forwards;
+}
+
+@keyframes move-3 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 1))
+  }
+}
+
+
+.name-4{
+  transform: translate(calc(8.8% * 3), 0);
+  animation: move-4 5s forwards;
+}
+
+@keyframes move-4 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 2))
+  }
+}
+
+
+.name-5{
+  transform: translate(calc(8.8% * 4), 0);
+  animation: move-5 5s forwards;
+}
+
+@keyframes move-5 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 3))
+  }
+}
+
+
+.name-6{
+  transform: translate(calc(8.8% * 5), 0);
+  animation: move-6 5s forwards;
+}
+
+@keyframes move-6 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 4))
+  }
+}
+
+
+.name-7{
+  transform: translate(calc(8.8% * 6), 0);
+  animation: move-7 5s forwards;
+}
+
+@keyframes move-7 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 5))
+  }
+}
+
+
+.name-8{
+  transform: translate(calc(8.8% * 7), 0);
+  animation: move-8 5s forwards;
+}
+
+@keyframes move-8 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 6))
+  }
+}
+
+
+.name-9{
+  transform: translate(calc(8.8% * 8), 0);
+  animation: move-9 5s forwards;
+}
+
+@keyframes move-9 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 7))
+  }
+}
+
+
+.name-10{
+  transform: translate(calc(8.8% * 9), 0);
+  animation: move-10 5s forwards;
+}
+
+@keyframes move-10 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 8))
+  }
+}
+
+
+.name-11{
+  transform: translate(calc(8.8% * 10), 0);
+  animation: move-11 5s forwards;
+}
+
+@keyframes move-11 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 9))
+  }
+}
+
+
+.name-12{
+  transform: translate(calc(8.8% * 11), 0);
+  animation: move-12 5s forwards;
+}
+
+@keyframes move-12 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 10))
+  }
+}
+
+
+.name-13{
+  transform: translate(calc(8.8% * 12), 0);
+  animation: move-13 5s forwards;
+}
+
+@keyframes move-13 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 11))
+  }
+}
+
+
+.name-14{
+  transform: translate(calc(8.8% * 13), 0);
+  animation: move-14 5s forwards;
+}
+
+@keyframes move-14 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 12))
+  }
+}
+
+
+.name-15{
+  transform: translate(calc(8.8% * 14), 0);
+  animation: move-15 5s forwards;
+}
+
+@keyframes move-15 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 13))
+  }
+}
+
+
+.name-16{
+  transform: translate(calc(8.8% * 15), 0);
+  animation: move-16 5s forwards;
+}
+
+@keyframes move-16 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 14))
+  }
+}
+
+
+.name-17{
+  transform: translate(calc(8.8% * 16), 0);
+  animation: move-17 5s forwards;
+}
+
+@keyframes move-17 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 15))
+  }
+}
+
+
+.name-18{
+  transform: translate(calc(8.8% * 17), 0);
+  animation: move-18 5s forwards;
+}
+
+@keyframes move-18 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 16))
+  }
+}
+
+
+.name-19{
+  transform: translate(calc(8.8% * 18), 0);
+  animation: move-19 5s forwards;
+}
+
+@keyframes move-19 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 17))
+  }
+}
+
+
+.name-20{
+  transform: translate(calc(8.8% * 19), 0);
+  animation: move-20 5s forwards;
+}
+
+@keyframes move-20 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 18))
+  }
+}
+
+
+.name-21{
+  transform: translate(calc(8.8% * 20), 0);
+  animation: move-21 5s forwards;
+}
+
+@keyframes move-21 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 19))
+  }
+}
+
+
+.name-22{
+  transform: translate(calc(8.8% * 21), 0);
+  animation: move-22 5s forwards;
+}
+
+@keyframes move-22 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 20))
+  }
+}
+
+.name-23{
+  transform: translate(calc(8.8% * 22), 0);
+  animation: move-23 5s forwards;
+}
+
+@keyframes move-23 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 21))
+  }
+}
+
+
+.name-24{
+  transform: translate(calc(8.8% * 23), 0);
+  animation: move-24 5s forwards;
+}
+
+@keyframes move-24 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 22))
+  }
+}
+
+
+.name-25{
+  transform: translate(calc(8.8% * 24), 0);
+  animation: move-25 5s forwards;
+}
+
+@keyframes move-25 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 23))
+  }
+}
+
+
+.name-26{
+  transform: translate(calc(8.8% * 25), 0);
+  animation: move-26 5s forwards;
+}
+
+@keyframes move-26 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 24))
+  }
+}
+
+
+.name-27{
+  transform: translate(calc(8.8% * 26), 0);
+  animation: move-27 5s forwards;
+}
+
+@keyframes move-27 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 25))
+  }
+}
+
+
+.name-28{
+  transform: translate(calc(8.8% * 27), 0);
+  animation: move-28 5s forwards;
+}
+
+@keyframes move-28 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 26))
+  }
+}
+
+
+.name-29{
+  transform: translate(calc(8.8% * 28), 0);
+  animation: move-29 5s forwards;
+}
+
+@keyframes move-29 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 27))
+  }
+}
+
+
+.name-30{
+  transform: translate(calc(8.8% * 29), 0);
+  animation: move-30 5s forwards;
+}
+
+@keyframes move-30 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 28))
+  }
+}
+
+
+.name-31{
+  transform: translate(calc(8.8% * 30), 0);
+  animation: move-31 5s forwards;
+}
+
+@keyframes move-31 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 29))
+  }
+}
+
+
+.name-32{
+  transform: translate(calc(8.8% * 31), 0);
+  animation: move-32 5s forwards;
+}
+
+@keyframes move-32 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 30))
+  }
+}
+
+
+.name-33{
+  transform: translate(calc(8.8% * 32), 0);
+  animation: move-33 5s forwards;
+}
+
+@keyframes move-33 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 31))
+  }
+}
+
+
+.name-34{
+  transform: translate(calc(8.8% * 33), 0);
+  animation: move-34 5s forwards;
+}
+
+@keyframes move-34 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 32))
+  }
+}
+
+
+.name-35{
+  transform: translate(calc(8.8% * 34), 0);
+  animation: move-35 5s forwards;
+}
+
+@keyframes move-35 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 33))
+  }
+}
+
+
+.name-36{
+  transform: translate(calc(8.8% * 35), 0);
+  animation: move-36 5s forwards;
+}
+
+@keyframes move-36 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 34))
+  }
+}
+
+
+.name-37{
+  transform: translate(calc(8.8% * 36), 0);
+  animation: move-37 5s forwards;
+}
+
+@keyframes move-37 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 35))
+  }
+}
+
+
+.name-38{
+  transform: translate(calc(8.8% * 37), 0);
+  animation: move-38 5s forwards;
+}
+
+@keyframes move-38 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 36))
+  }
+}
+
+
+.name-39{
+  transform: translate(calc(8.8% * 38), 0);
+  animation: move-39 5s forwards;
+}
+
+@keyframes move-39 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 37))
+  }
+}
+
+
+.name-40{
+  transform: translate(calc(8.8% * 39), 0);
+  animation: move-40 5s forwards;
+}
+
+@keyframes move-40 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 38))
+  }
+}
+
+
+.name-41{
+  transform: translate(calc(8.8% * 40), 0);
+  animation: move-41 5s forwards;
+}
+
+@keyframes move-41 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 39))
+  }
+}
+
+
+.name-42{
+  transform: translate(calc(8.8% * 41), 0);
+  animation: move-42 5s forwards;
+}
+
+@keyframes move-42 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 40))
+  }
+}
+
+
+.name-43{
+  transform: translate(calc(8.8% * 42), 0);
+  animation: move-43 5s forwards;
+}
+
+@keyframes move-43 {
+  100% {
+    transform: translate(calc(8.8% * 21), calc(-14px * 41))
+  }
+}
